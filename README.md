@@ -15,10 +15,6 @@ The `data_digger` database contains **4 tables** that model a simple e-commerce 
 | `product` | Stores product catalog & stock | `product_id` | — |
 | `order_details` | Line items linking orders to products | `order_detail_id` | `order_id` → `orders(order_id)`, `product_id` → `product(product_id)` |
 
-## ⚙️ How outputs were generated
-
-Every query below was **actually executed** (not hand-typed) using a Python script (`run_digger.py`) that runs the full `data_digger.sql` script step-by-step against an in-memory SQLite database, captures the real result of each statement, and renders it as a Markdown table. The only changes from the original MySQL file are syntax translations SQLite requires (e.g. `INTERVAL '30' DAY` → `date('now','-30 days')`) — the logic and results are equivalent.
-
 ## 📜 Query-by-Query Walkthrough
 
 
