@@ -1,7 +1,5 @@
 # 🔍 Data Digger
 
-**Project:** Data Digger
-
 ## Objective
 
 "Data Digger" is a practical SQL project that provides hands-on experience in managing a MySQL database using CRUD operations, clauses, operators, aggregate functions, primary keys, and foreign keys. Students will design and manipulate a structured relational database for an E-Commerce Store to gain deeper insights into SQL query execution.
