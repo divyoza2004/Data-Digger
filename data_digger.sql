@@ -16,8 +16,7 @@ VALUES
 (5, 'Eva White', 'eva.white@email.com', '654 Birch St');
 SELECT * FROM customer;
 UPDATE customer SET address = '999 New Avenue Rd' WHERE customer_id = 2;
--- Customer 1 ko delete nahi kar sakte kyunki iska order id 101 orders table me exist karta hai
--- DELETE FROM customer WHERE customer_id = 1; 
+DELETE FROM customer WHERE customer_id = 1; 
 SELECT * FROM customer WHERE name = 'Alice' OR name LIKE 'Alice%';
 
 -- Order Table 
