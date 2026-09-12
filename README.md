@@ -89,10 +89,10 @@ UPDATE customer SET address = '999 New Avenue Rd' WHERE customer_id = 2;
 This statement is commented out in the source file. Customer 1 **cannot** be deleted because `order_id = 101` in the `orders` table references `customer_id = 1` via a FOREIGN KEY constraint — deleting it would break referential integrity.
 
 ```sql
--- DELETE FROM customer WHERE customer_id = 1;
+DELETE FROM customer WHERE customer_id = 1;
 ```
 
-**Output:** _Statement is commented out in the source file — not executed._
+**Output:** the source file is not executed._
 
 #### 6. Search customers named 'Alice'
 
