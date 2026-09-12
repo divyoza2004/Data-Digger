@@ -22,6 +22,13 @@ The database `data_digger` contains four related tables:
 ## ERP Diagram
 <img width="1561" height="484" alt="erd_data_digger" src="https://github.com/user-attachments/assets/c5853dd9-192f-468b-a77d-5d3fe6ca7be9" />
 
+## ▶ Demo Video
+
+<a href="" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/▶-Watch%20Demo%20Video-181717?style=for-the-badge&logo=github&logoColor=white" alt="Watch Demo Video" />
+</a>
+
+## SQL Query Walkthrouugh 
 
 ## 1. Customer Table
 
