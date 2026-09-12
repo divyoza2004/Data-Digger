@@ -19,9 +19,6 @@ The database `data_digger` contains four related tables:
 | `product` | Stores product catalog | Primary Key: `product_id` |
 | `order_details` | Line items per order | FK `order_id` → `orders.order_id`, FK `product_id` → `product.product_id` |
 
-## ERP Diagram
-<img width="1561" height="484" alt="erd_data_digger" src="https://github.com/user-attachments/assets/c5853dd9-192f-468b-a77d-5d3fe6ca7be9" />
-
 ## ▶ Demo Video
 
 <a href="https://drive.google.com/file/d/1USIxfN-uTZeX62orW1BwpLAXqaUXoDIy/view?usp=sharing" target="_blank" rel="noopener noreferrer">
